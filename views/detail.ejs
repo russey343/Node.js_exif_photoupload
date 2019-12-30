@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title><%=title%></title>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    
+   <body>
+
+        <div class="w3-container w3-teal">
+            <h1><%=title%></h1>
+        </div>
+        <div class="container">
+            <div class="jumbtron">
+            <p class="lead"><%=description%></p>
+        </div>
+        <div class="row">
+            <div class="col-lg-8">
+             <img src= "<%=newimg%>" 
+             class="w3-image w3-border w3-padding" style="max-width:600px;width:100%">     
+             </div>
+
+            <div class="col-lg-4">
+                <div>
+                    <ul class="list-group">
+                        <li class="list-group-item">Make: <%=make%></li>
+                        <li class="list-group-item">Model: <%=model%></li>
+                        <li class="list-group-item">Created on: <%=date%></li>
+                        <li class="list-group-item">Location: <a href="/map/<%=lat%>/<%=lon%>"target="_blank">Map</a></li>        
+                    </ul>
+                </div>
+
+        <div class="w3-container">
+            <button class="w3-btn w3-section w3-teal w3-ripple"  onclick= "window.open(location.href='/')">Home</button>
+        </div>
+    </div>
+</div>
+</div>
+
+        </body>
+
+</html>
