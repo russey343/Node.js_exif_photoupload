@@ -1,0 +1,46 @@
+<html>
+<title>Upload new photo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+<body>
+		<div class="w3-container w3-teal">
+				<h1>Upload New Photo</h1>
+			  </div>
+	<br> 
+	<br> 
+	<br> 
+	<div class="container" > 
+		<div class="row"> 
+		<div class="col-md-3"> 
+					
+		</div> 
+				
+		<div class="col-md-6 main"> 
+			<form action="/uploadnew_jpg" enctype="multipart/form-data"  method="post"
+			class="w3-container" style="width:100%">  
+			<p>	<label class="w3-label w3-validate">Title</label>	
+			<input class="box" type="text" name="title" id="title"
+			placeholder="Title" required /></p>	 
+			<p>	<label class="w3-label w3-validate">Description</label>
+			<input class="box" type="text" name="description" id="description"
+			placeholder="Description" /></p>
+			<p>Image upload:</p>
+			<input type="file" name="picture" required/>
+			<br>
+			<br> 
+			<input type="submit" class="w3-btn w3-section w3-teal w3-ripple" id="submitDetails"
+			name="submitDetails" value="Submit" />
+			</form> 
+			
+
+		</div> 
+				
+				
+		<div class="col-md-3"> 
+		</div> 
+				
+	</div> 
+	</div> 
+</body> 
+</html>	 
